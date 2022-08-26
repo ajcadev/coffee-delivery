@@ -19,6 +19,8 @@ body {
 
   background-color: ${(props) => props.theme['base-background']};
   color: ${(props) => props.theme['base-text']};
+
+  font: 400 1rem 'Roboto', sans-serif;
 }
 
 img, picture, video, canvas, svg {
